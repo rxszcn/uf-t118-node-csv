@@ -1,0 +1,10 @@
+.*
+node_modules
+!.eslintrc.yml
+!.github
+!.gitignore
+!.husky
+!.npmrc
+lerna-debug.log
+yarn.lock
+yarn-error.log
