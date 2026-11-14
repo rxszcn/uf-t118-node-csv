@@ -73,9 +73,16 @@ export interface Options extends stream.ReadableOptions {
   object_mode?: boolean;
   objectMode?: boolean;
   /**
-   * One or multiple characters used to delimit records.
+   * One or multiple characters used to delimit records. Alias of
+   * `record_delimiter`, kept for backward compatibility.
    */
   row_delimiter?: string;
+  rowDelimiter?: string;
+  /**
+   * One or multiple characters used to delimit records.
+   */
+  record_delimiter?: string;
+  recordDelimiter?: string;
   /**
    * Generate idempotent random characters if a number provided.
    */

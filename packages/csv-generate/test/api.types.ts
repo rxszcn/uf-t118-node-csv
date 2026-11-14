@@ -118,6 +118,12 @@ describe("API Types", function () {
       options.row_delimiter = ";";
     });
 
+    it("record_delimiter", function () {
+      const options: Options = {};
+      options.record_delimiter = ";";
+      options.recordDelimiter = ";";
+    });
+
     it("seed", function () {
       const options: Options = {};
       options.seed = 10;
